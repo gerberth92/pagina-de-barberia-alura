@@ -1,0 +1,141 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 0 20px;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 115px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label , form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.padron ,textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background: darkorange;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+td , th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyrigth {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media screen and (max-width:480px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        padding: 0 0 3em;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    main, .caja{
+        width: auto;
+    }
+    
+    form {
+        margin: 2em 0 0 2em;
+    }
+
+    .elección-de-contacto {
+        margin: 1.5em 0;
+    }
+
+    .enviar {
+        width: auto;
+    }
+}
